@@ -16,5 +16,12 @@ def search_student(name):
         print("Студент табылмады")
 
 
+def add_student(name):
+    students.append(name)
+    print("Жаңа студент қосылды:", name)
+
+add_student("Дамир")
 show_students()
-search_student("Айзере")
+
+# show_students()
+# search_student("Айзере")
