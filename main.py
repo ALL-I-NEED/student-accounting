@@ -1,4 +1,9 @@
 students = ["Айзере", "Әдемі", "Сабина"]
 
-print("Студенттер:")
-print(students)
+def show_students():
+    print("Студенттер:")
+    for student in students:
+        print(student)
+
+
+show_students()
