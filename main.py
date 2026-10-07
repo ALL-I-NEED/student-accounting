@@ -5,5 +5,16 @@ def show_students():
     for student in students:
         print(student)
 
+print("6 тапсырма өзгерістер")
+
+
+
+def search_student(name):
+    if name in students:
+        print("Студент табылды:", name)
+    else:
+        print("Студент табылмады")
+
 
 show_students()
+search_student("Айзере")
